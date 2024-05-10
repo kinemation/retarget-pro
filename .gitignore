@@ -1,0 +1,12 @@
+.idea/
+Build/
+Library/
+Logs/
+obj/
+Temp/
+UserSettings/
+Assets/KINEMATION/
+Packages/com.unity.asset-store-tools/
+*.csproj
+*.sln
+Assets/KINEMATION.meta

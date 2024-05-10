@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9019466755492838613
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6e0cf430a4479280dbe53e7c58bd9c, type: 3}
+  m_Name: BasicRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 06ab58b79f4b72a4ab099b3c65a9f771, type: 2}
+  targetRig: {fileID: 11400000, guid: 02b54d264ec33ec4baa1e40048582f7a, type: 2}
+  sourceChain: Spine_Full
+  targetChain: Spine
+  featureWeight: 1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+--- !u!114 &-4016554750513082033
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6e0cf430a4479280dbe53e7c58bd9c, type: 3}
+  m_Name: BasicRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 06ab58b79f4b72a4ab099b3c65a9f771, type: 2}
+  targetRig: {fileID: 11400000, guid: 02b54d264ec33ec4baa1e40048582f7a, type: 2}
+  sourceChain: Hands
+  targetChain: Hands
+  featureWeight: 1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+--- !u!114 &-2559511884550097708
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 06ab58b79f4b72a4ab099b3c65a9f771, type: 2}
+  targetRig: {fileID: 11400000, guid: 02b54d264ec33ec4baa1e40048582f7a, type: 2}
+  sourceChain: RightArm
+  targetChain: RightArm
+  featureWeight: 1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: 0, y: 0, z: 0.035}
+  effectorOffsetSpace:
+    name: weaponBone
+    index: 66
+    isVirtual: 0
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12349bae48c61824bb8e519537ce28eb, type: 3}
+  m_Name: Retarget_Unity_to_Girl_Profile
+  m_EditorClassIdentifier: 
+  sourcePose: {fileID: -203655887218126122, guid: 83ba7afddb13a844d89df29eced45681,
+    type: 3}
+  targetPose: {fileID: 0}
+  sourceRig: {fileID: 11400000, guid: 06ab58b79f4b72a4ab099b3c65a9f771, type: 2}
+  targetRig: {fileID: 11400000, guid: 02b54d264ec33ec4baa1e40048582f7a, type: 2}
+  retargetFeatures:
+  - {fileID: 5159451405356627734}
+  - {fileID: 4345332271705716581}
+  - {fileID: -4016554750513082033}
+  - {fileID: -9019466755492838613}
+  - {fileID: -2559511884550097708}
+  - {fileID: 2388862159097939815}
+  - {fileID: 5430096262640995905}
+  - {fileID: 3805948443460956123}
+--- !u!114 &2388862159097939815
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 06ab58b79f4b72a4ab099b3c65a9f771, type: 2}
+  targetRig: {fileID: 11400000, guid: 02b54d264ec33ec4baa1e40048582f7a, type: 2}
+  sourceChain: LeftArm
+  targetChain: LeftArm
+  featureWeight: 1
+  scaleWeight: 0
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 0
+  effectorOffset: {x: -0.12, y: 0.02, z: -0.03}
+  effectorOffsetSpace:
+    name: Enemy girl new 1
+    index: 0
+    isVirtual: 0
+--- !u!114 &3805948443460956123
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 06ab58b79f4b72a4ab099b3c65a9f771, type: 2}
+  targetRig: {fileID: 11400000, guid: 02b54d264ec33ec4baa1e40048582f7a, type: 2}
+  sourceChain: RightLeg
+  targetChain: RightLeg
+  featureWeight: 1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 1
+  effectorOffset: {x: 0, y: 0, z: 0}
+  effectorOffsetSpace:
+    name: 
+    index: 0
+    isVirtual: 0
+--- !u!114 &4345332271705716581
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6e0cf430a4479280dbe53e7c58bd9c, type: 3}
+  m_Name: BasicRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 06ab58b79f4b72a4ab099b3c65a9f771, type: 2}
+  targetRig: {fileID: 11400000, guid: 02b54d264ec33ec4baa1e40048582f7a, type: 2}
+  sourceChain: Weapon
+  targetChain: Weapon
+  featureWeight: 1
+  scaleWeight: 0
+  translationWeight: 1
+  offset: {x: 0.055, y: 0.38, z: 0.33}
+--- !u!114 &5159451405356627734
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6e0cf430a4479280dbe53e7c58bd9c, type: 3}
+  m_Name: BasicRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 06ab58b79f4b72a4ab099b3c65a9f771, type: 2}
+  targetRig: {fileID: 11400000, guid: 02b54d264ec33ec4baa1e40048582f7a, type: 2}
+  sourceChain: Hips
+  targetChain: Hip
+  featureWeight: 1
+  scaleWeight: 1
+  translationWeight: 1
+  offset: {x: 0, y: 0, z: 0}
+--- !u!114 &5430096262640995905
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c037f4882c5493a84c1732694149815, type: 3}
+  m_Name: IKRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 06ab58b79f4b72a4ab099b3c65a9f771, type: 2}
+  targetRig: {fileID: 11400000, guid: 02b54d264ec33ec4baa1e40048582f7a, type: 2}
+  sourceChain: LeftLeg
+  targetChain: LeftLeg
+  featureWeight: 1
+  scaleWeight: 1
+  translationWeight: 0
+  offset: {x: 0, y: 0, z: 0}
+  ikWeight: 1
+  effectorOffset: {x: 0, y: 0, z: 0}
+  effectorOffsetSpace:
+    name: 
+    index: 0
+    isVirtual: 0
