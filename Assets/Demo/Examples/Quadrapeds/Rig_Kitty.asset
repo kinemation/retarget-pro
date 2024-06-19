@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9c04639ae548bdb0a8e927492d029d, type: 3}
+  m_Name: Rig_Kitty
+  m_EditorClassIdentifier: 
+  targetAnimator: {fileID: 0}
+  inputConfig: {fileID: 0}
+  rigHierarchy:
+  - name: kitty.001
+    index: 0
+    isVirtual: 0
+  - name: Root
+    index: 1
+    isVirtual: 0
+  - name: spine.005
+    index: 2
+    isVirtual: 0
+  - name: shoulder.L
+    index: 3
+    isVirtual: 0
+  - name: thigh.L
+    index: 4
+    isVirtual: 0
+  - name: shin.L
+    index: 5
+    isVirtual: 0
+  - name: foot.L
+    index: 6
+    isVirtual: 0
+  - name: toe.L
+    index: 7
+    isVirtual: 0
+  - name: shoulder.R
+    index: 8
+    isVirtual: 0
+  - name: thigh.R
+    index: 9
+    isVirtual: 0
+  - name: shin.R
+    index: 10
+    isVirtual: 0
+  - name: foot.R
+    index: 11
+    isVirtual: 0
+  - name: toe.R
+    index: 12
+    isVirtual: 0
+  - name: spine.004
+    index: 13
+    isVirtual: 0
+  - name: spine.003
+    index: 14
+    isVirtual: 0
+  - name: spine.002
+    index: 15
+    isVirtual: 0
+  - name: spine.001
+    index: 16
+    isVirtual: 0
+  - name: spine
+    index: 17
+    isVirtual: 0
+  - name: spine.006
+    index: 18
+    isVirtual: 0
+  - name: spine.007
+    index: 19
+    isVirtual: 0
+  - name: front_shoulder.L
+    index: 20
+    isVirtual: 0
+  - name: front_thigh.L
+    index: 21
+    isVirtual: 0
+  - name: front_shin.L
+    index: 22
+    isVirtual: 0
+  - name: front_foot.L
+    index: 23
+    isVirtual: 0
+  - name: front_shoulder.R
+    index: 24
+    isVirtual: 0
+  - name: front_thigh.R
+    index: 25
+    isVirtual: 0
+  - name: front_shin.R
+    index: 26
+    isVirtual: 0
+  - name: front_foot.R
+    index: 27
+    isVirtual: 0
+  - name: spine.008
+    index: 28
+    isVirtual: 0
+  - name: scull
+    index: 29
+    isVirtual: 0
+  - name: ear.L
+    index: 30
+    isVirtual: 0
+  - name: ear.R
+    index: 31
+    isVirtual: 0
+  - name: jaw
+    index: 32
+    isVirtual: 0
+  rigElementChains:
+  - chainName: pelvis
+    elementChain:
+    - name: spine.005
+      index: 2
+      isVirtual: 0
+  - chainName: rightLeg
+    elementChain:
+    - name: thigh.R
+      index: 9
+      isVirtual: 0
+    - name: shin.R
+      index: 10
+      isVirtual: 0
+    - name: foot.R
+      index: 11
+      isVirtual: 0
+  - chainName: leftLeg
+    elementChain:
+    - name: thigh.L
+      index: 4
+      isVirtual: 0
+    - name: shin.L
+      index: 5
+      isVirtual: 0
+    - name: foot.L
+      index: 6
+      isVirtual: 0
+  - chainName: spine
+    elementChain:
+    - name: spine.006
+      index: 18
+      isVirtual: 0
+    - name: spine.007
+      index: 19
+      isVirtual: 0
+  - chainName: neck
+    elementChain:
+    - name: spine.008
+      index: 28
+      isVirtual: 0
+    - name: scull
+      index: 29
+      isVirtual: 0
+  - chainName: rightArm
+    elementChain:
+    - name: front_thigh.R
+      index: 25
+      isVirtual: 0
+    - name: front_shin.R
+      index: 26
+      isVirtual: 0
+    - name: front_foot.R
+      index: 27
+      isVirtual: 0
+  - chainName: leftArm
+    elementChain:
+    - name: front_thigh.L
+      index: 21
+      isVirtual: 0
+    - name: front_shin.L
+      index: 22
+      isVirtual: 0
+    - name: front_foot.L
+      index: 23
+      isVirtual: 0
+  - chainName: tail
+    elementChain:
+    - name: spine.004
+      index: 13
+      isVirtual: 0
+    - name: spine.003
+      index: 14
+      isVirtual: 0
+    - name: spine.002
+      index: 15
+      isVirtual: 0
+    - name: spine.001
+      index: 16
+      isVirtual: 0
+    - name: spine
+      index: 17
+      isVirtual: 0
+  - chainName: toes
+    elementChain:
+    - name: toe.L
+      index: 7
+      isVirtual: 0
+    - name: toe.R
+      index: 12
+      isVirtual: 0
+  - chainName: ears
+    elementChain:
+    - name: ear.L
+      index: 30
+      isVirtual: 0
+    - name: ear.R
+      index: 31
+      isVirtual: 0
+  rigCurves: []
+  rigDepths: 000000000100000002000000030000000400000005000000060000000700000003000000040000000500000006000000070000000300000004000000050000000600000007000000030000000400000005000000060000000700000008000000050000000600000007000000080000000500000006000000070000000700000007000000

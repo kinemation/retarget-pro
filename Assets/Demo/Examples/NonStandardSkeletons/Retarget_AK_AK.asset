@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12349bae48c61824bb8e519537ce28eb, type: 3}
+  m_Name: Retarget_AK_AK
+  m_EditorClassIdentifier: 
+  sourceCharacter: {fileID: 1214189357846553619, guid: 2e48d80f63992234783f53ce523fb26e,
+    type: 3}
+  targetCharacter: {fileID: 5440095482177164784, guid: 122eb30c4c9bc584a89855ce374976c9,
+    type: 3}
+  sourcePose: {fileID: 0}
+  targetPose: {fileID: 0}
+  sourceRig: {fileID: 11400000, guid: 074cbef45339cbf42be8379e7828aa97, type: 2}
+  targetRig: {fileID: 11400000, guid: 074cbef45339cbf42be8379e7828aa97, type: 2}
+  retargetFeatures:
+  - {fileID: 4819879994856401145}
+  - {fileID: 3864601112954936057}
+  - {fileID: 3622443518059301148}
+--- !u!114 &3622443518059301148
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6e0cf430a4479280dbe53e7c58bd9c, type: 3}
+  m_Name: BasicRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 074cbef45339cbf42be8379e7828aa97, type: 2}
+  targetRig: {fileID: 11400000, guid: 074cbef45339cbf42be8379e7828aa97, type: 2}
+  featureWeight: 1
+  sourceChain: Charge
+  targetChain: Charge
+  scaleWeight: 0
+  translationWeight: 1
+  offset: {x: 0, y: 0, z: 0}
+--- !u!114 &3864601112954936057
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6e0cf430a4479280dbe53e7c58bd9c, type: 3}
+  m_Name: BasicRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 074cbef45339cbf42be8379e7828aa97, type: 2}
+  targetRig: {fileID: 11400000, guid: 074cbef45339cbf42be8379e7828aa97, type: 2}
+  featureWeight: 1
+  sourceChain: Mag
+  targetChain: Mag
+  scaleWeight: 0
+  translationWeight: 1
+  offset: {x: 0, y: 0, z: 0}
+--- !u!114 &4819879994856401145
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a6e0cf430a4479280dbe53e7c58bd9c, type: 3}
+  m_Name: BasicRetargetFeature
+  m_EditorClassIdentifier: 
+  sourceRig: {fileID: 11400000, guid: 074cbef45339cbf42be8379e7828aa97, type: 2}
+  targetRig: {fileID: 11400000, guid: 074cbef45339cbf42be8379e7828aa97, type: 2}
+  featureWeight: 1
+  sourceChain: Safety
+  targetChain: Safety
+  scaleWeight: 0
+  translationWeight: 1
+  offset: {x: 0, y: 0, z: 0}

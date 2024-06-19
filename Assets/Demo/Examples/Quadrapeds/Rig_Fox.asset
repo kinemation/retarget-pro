@@ -1,0 +1,238 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9c04639ae548bdb0a8e927492d029d, type: 3}
+  m_Name: Rig_Fox
+  m_EditorClassIdentifier: 
+  targetAnimator: {fileID: 0}
+  inputConfig: {fileID: 0}
+  rigHierarchy:
+  - name: FoxTransform
+    index: 0
+    isVirtual: 0
+  - name: Fox_Pelvis
+    index: 1
+    isVirtual: 0
+  - name: Fox_LLeg1
+    index: 2
+    isVirtual: 0
+  - name: Fox_LLeg2
+    index: 3
+    isVirtual: 0
+  - name: Fox_LLegAnkle
+    index: 4
+    isVirtual: 0
+  - name: Fox_LLegDigit11
+    index: 5
+    isVirtual: 0
+  - name: Fox_RLeg1
+    index: 6
+    isVirtual: 0
+  - name: Fox_RLeg2
+    index: 7
+    isVirtual: 0
+  - name: Fox_RLegAnkle
+    index: 8
+    isVirtual: 0
+  - name: Fox_RLegDigit11
+    index: 9
+    isVirtual: 0
+  - name: Fox_Spine1
+    index: 10
+    isVirtual: 0
+  - name: Fox_Spine2
+    index: 11
+    isVirtual: 0
+  - name: Fox_Ribcage
+    index: 12
+    isVirtual: 0
+  - name: Fox_F_LLeg1
+    index: 13
+    isVirtual: 0
+  - name: Fox_F_LLeg2
+    index: 14
+    isVirtual: 0
+  - name: Fox_F_LLegAnkle
+    index: 15
+    isVirtual: 0
+  - name: Fox_F_LLegDigit11
+    index: 16
+    isVirtual: 0
+  - name: Fox_F_RLeg1
+    index: 17
+    isVirtual: 0
+  - name: Fox_F_RLeg2
+    index: 18
+    isVirtual: 0
+  - name: Fox_F_RLegAnkle
+    index: 19
+    isVirtual: 0
+  - name: Fox_F_RLegDigit11
+    index: 20
+    isVirtual: 0
+  - name: Fox_Spine
+    index: 21
+    isVirtual: 0
+  - name: Fox_Head
+    index: 22
+    isVirtual: 0
+  - name: Fox_Jaw
+    index: 23
+    isVirtual: 0
+  - name: Fox_LEar1
+    index: 24
+    isVirtual: 0
+  - name: Fox_LEar2
+    index: 25
+    isVirtual: 0
+  - name: Fox_LEye
+    index: 26
+    isVirtual: 0
+  - name: Fox_LowerLEyelid
+    index: 27
+    isVirtual: 0
+  - name: Fox_LowerREyelid
+    index: 28
+    isVirtual: 0
+  - name: Fox_REar1
+    index: 29
+    isVirtual: 0
+  - name: Fox_REar2
+    index: 30
+    isVirtual: 0
+  - name: Fox_REye
+    index: 31
+    isVirtual: 0
+  - name: Fox_UpperLEyelid
+    index: 32
+    isVirtual: 0
+  - name: Fox_UpperREyelid
+    index: 33
+    isVirtual: 0
+  - name: Fox_Tail1
+    index: 34
+    isVirtual: 0
+  - name: Fox_Tail2
+    index: 35
+    isVirtual: 0
+  - name: Fox_Tail3
+    index: 36
+    isVirtual: 0
+  - name: Fox_Tail4
+    index: 37
+    isVirtual: 0
+  - name: Fox_Tail5
+    index: 38
+    isVirtual: 0
+  - name: Fox_Tail6
+    index: 39
+    isVirtual: 0
+  rigElementChains:
+  - chainName: pelvis
+    elementChain:
+    - name: Root_M
+      index: 1
+      isVirtual: 0
+  - chainName: rightLeg
+    elementChain:
+    - name: Fox_RLeg1
+      index: 6
+      isVirtual: 0
+    - name: Fox_RLeg2
+      index: 7
+      isVirtual: 0
+    - name: Fox_RLegAnkle
+      index: 8
+      isVirtual: 0
+  - chainName: leftLeg
+    elementChain:
+    - name: Fox_LLeg1
+      index: 2
+      isVirtual: 0
+    - name: Fox_LLeg2
+      index: 3
+      isVirtual: 0
+    - name: Fox_LLegAnkle
+      index: 4
+      isVirtual: 0
+  - chainName: spine
+    elementChain:
+    - name: Fox_Spine1
+      index: 10
+      isVirtual: 0
+    - name: Fox_Spine2
+      index: 11
+      isVirtual: 0
+  - chainName: neck
+    elementChain:
+    - name: Fox_Spine
+      index: 21
+      isVirtual: 0
+    - name: Fox_Head
+      index: 22
+      isVirtual: 0
+  - chainName: rightArm
+    elementChain:
+    - name: Fox_F_RLeg1
+      index: 17
+      isVirtual: 0
+    - name: Fox_F_RLeg2
+      index: 18
+      isVirtual: 0
+    - name: Fox_F_RLegAnkle
+      index: 19
+      isVirtual: 0
+  - chainName: leftArm
+    elementChain:
+    - name: Fox_F_LLeg1
+      index: 13
+      isVirtual: 0
+    - name: Fox_F_LLeg2
+      index: 14
+      isVirtual: 0
+    - name: Fox_F_LLegAnkle
+      index: 15
+      isVirtual: 0
+  - chainName: toes
+    elementChain:
+    - name: Fox_LLegDigit11
+      index: 5
+      isVirtual: 0
+    - name: Fox_RLegDigit11
+      index: 9
+      isVirtual: 0
+  - chainName: tail
+    elementChain:
+    - name: Fox_Tail1
+      index: 34
+      isVirtual: 0
+    - name: Fox_Tail2
+      index: 35
+      isVirtual: 0
+    - name: Fox_Tail3
+      index: 36
+      isVirtual: 0
+    - name: Fox_Tail4
+      index: 37
+      isVirtual: 0
+    - name: Fox_Tail5
+      index: 38
+      isVirtual: 0
+  - chainName: ears
+    elementChain:
+    - name: Fox_LEar1
+      index: 24
+      isVirtual: 0
+    - name: Fox_REar1
+      index: 29
+      isVirtual: 0
+  rigCurves: []
+  rigDepths: 00000000010000000200000003000000040000000500000002000000030000000400000005000000020000000300000004000000050000000600000007000000080000000500000006000000070000000800000005000000060000000700000007000000080000000700000007000000070000000700000008000000070000000700000007000000020000000300000004000000050000000600000007000000

@@ -1,0 +1,620 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9c04639ae548bdb0a8e927492d029d, type: 3}
+  m_Name: Rig_Goblin
+  m_EditorClassIdentifier: 
+  targetAnimator: {fileID: 0}
+  inputConfig: {fileID: 0}
+  rigHierarchy:
+  - name: SKL_Goblin
+    index: 0
+    isVirtual: 0
+  - name: B_Root
+    index: 1
+    isVirtual: 0
+  - name: B_Pelvis
+    index: 2
+    isVirtual: 0
+  - name: B_leg_L_1
+    index: 3
+    isVirtual: 0
+  - name: B_leg_L_2
+    index: 4
+    isVirtual: 0
+  - name: B_Foot_L
+    index: 5
+    isVirtual: 0
+  - name: B_Toe_L
+    index: 6
+    isVirtual: 0
+  - name: B_Toe_L_end
+    index: 7
+    isVirtual: 0
+  - name: B_leg_R_1
+    index: 8
+    isVirtual: 0
+  - name: B_leg_R_2
+    index: 9
+    isVirtual: 0
+  - name: B_Foot_R
+    index: 10
+    isVirtual: 0
+  - name: B_Toe_R
+    index: 11
+    isVirtual: 0
+  - name: B_Toe_R_end
+    index: 12
+    isVirtual: 0
+  - name: B_Spine_1
+    index: 13
+    isVirtual: 0
+  - name: B_Spine_2
+    index: 14
+    isVirtual: 0
+  - name: B_Clavicle_L
+    index: 15
+    isVirtual: 0
+  - name: B_Arm_L
+    index: 16
+    isVirtual: 0
+  - name: B_Forearm_L
+    index: 17
+    isVirtual: 0
+  - name: B_Forearm_L_Rotate
+    index: 18
+    isVirtual: 0
+  - name: B_Hand_L
+    index: 19
+    isVirtual: 0
+  - name: B_index_finger_L_1
+    index: 20
+    isVirtual: 0
+  - name: B_index_finger_L_2
+    index: 21
+    isVirtual: 0
+  - name: B_index_finger_L_3
+    index: 22
+    isVirtual: 0
+  - name: B_index_finger_L_end
+    index: 23
+    isVirtual: 0
+  - name: B_Little_finger_L_1
+    index: 24
+    isVirtual: 0
+  - name: B_Little_finger_L_2
+    index: 25
+    isVirtual: 0
+  - name: B_Little_finger_L_3
+    index: 26
+    isVirtual: 0
+  - name: B_Little_finger_L_end
+    index: 27
+    isVirtual: 0
+  - name: B_middle_finger_L_1
+    index: 28
+    isVirtual: 0
+  - name: B_middle_finger_L_2
+    index: 29
+    isVirtual: 0
+  - name: B_middle_finger_L_3
+    index: 30
+    isVirtual: 0
+  - name: B_middle_finger_L_end
+    index: 31
+    isVirtual: 0
+  - name: B_Thumb_L_1
+    index: 32
+    isVirtual: 0
+  - name: B_Thumb_L_2
+    index: 33
+    isVirtual: 0
+  - name: B_Thumb_L_3
+    index: 34
+    isVirtual: 0
+  - name: B_Thumb_L_end
+    index: 35
+    isVirtual: 0
+  - name: B_Clavicle_R
+    index: 36
+    isVirtual: 0
+  - name: B_Arm_R
+    index: 37
+    isVirtual: 0
+  - name: B_Forearm_R
+    index: 38
+    isVirtual: 0
+  - name: B_Forearm_R_Rotate
+    index: 39
+    isVirtual: 0
+  - name: B_Hand_R
+    index: 40
+    isVirtual: 0
+  - name: B_index_finger_R_1
+    index: 41
+    isVirtual: 0
+  - name: B_index_finger_R_2
+    index: 42
+    isVirtual: 0
+  - name: B_index_finger_R_3
+    index: 43
+    isVirtual: 0
+  - name: B_index_finger_R_end
+    index: 44
+    isVirtual: 0
+  - name: B_middle_finger_R_1
+    index: 45
+    isVirtual: 0
+  - name: B_middle_finger_R_2
+    index: 46
+    isVirtual: 0
+  - name: B_middle_finger_R_3
+    index: 47
+    isVirtual: 0
+  - name: B_middle_finger_R_end
+    index: 48
+    isVirtual: 0
+  - name: B_Rittle_finger_R_1
+    index: 49
+    isVirtual: 0
+  - name: B_Rittle_finger_R_2
+    index: 50
+    isVirtual: 0
+  - name: B_Rittle_finger_R_3
+    index: 51
+    isVirtual: 0
+  - name: B_Rittle_finger_R_end
+    index: 52
+    isVirtual: 0
+  - name: B_Thumb_R_1
+    index: 53
+    isVirtual: 0
+  - name: B_Thumb_R_2
+    index: 54
+    isVirtual: 0
+  - name: B_Thumb_R_3
+    index: 55
+    isVirtual: 0
+  - name: B_Thumb_R_end
+    index: 56
+    isVirtual: 0
+  - name: B_Neck
+    index: 57
+    isVirtual: 0
+  - name: B_Head
+    index: 58
+    isVirtual: 0
+  - name: B_Ear_L_1
+    index: 59
+    isVirtual: 0
+  - name: B_Ear_L_2
+    index: 60
+    isVirtual: 0
+  - name: B_Ear_L_3
+    index: 61
+    isVirtual: 0
+  - name: B_Ear_L_4
+    index: 62
+    isVirtual: 0
+  - name: B_Ear_R_1
+    index: 63
+    isVirtual: 0
+  - name: B_Ear_R_2
+    index: 64
+    isVirtual: 0
+  - name: B_Ear_R_3
+    index: 65
+    isVirtual: 0
+  - name: B_Ear_R_4
+    index: 66
+    isVirtual: 0
+  - name: B_Eye_L
+    index: 67
+    isVirtual: 0
+  - name: B_Eye_R
+    index: 68
+    isVirtual: 0
+  - name: B_Eyebrow_L_1
+    index: 69
+    isVirtual: 0
+  - name: B_Eyebrow_L_2
+    index: 70
+    isVirtual: 0
+  - name: B_Eyebrow_L_3
+    index: 71
+    isVirtual: 0
+  - name: B_Eyebrow_L_4
+    index: 72
+    isVirtual: 0
+  - name: B_Eyebrow_R_1
+    index: 73
+    isVirtual: 0
+  - name: B_Eyebrow_R_2
+    index: 74
+    isVirtual: 0
+  - name: B_Eyebrow_R_3
+    index: 75
+    isVirtual: 0
+  - name: B_Eyebrow_R_4
+    index: 76
+    isVirtual: 0
+  - name: B_eyelid_D_L_1
+    index: 77
+    isVirtual: 0
+  - name: B_eyelid_D_L_2
+    index: 78
+    isVirtual: 0
+  - name: B_eyelid_D_L_3
+    index: 79
+    isVirtual: 0
+  - name: B_eyelid_D_R_1
+    index: 80
+    isVirtual: 0
+  - name: B_eyelid_D_R_2
+    index: 81
+    isVirtual: 0
+  - name: B_eyelid_D_R_3
+    index: 82
+    isVirtual: 0
+  - name: B_eyelid_L_L
+    index: 83
+    isVirtual: 0
+  - name: B_eyelid_R_L
+    index: 84
+    isVirtual: 0
+  - name: B_eyelid_R_R
+    index: 85
+    isVirtual: 0
+  - name: B_eyelid_R_R1
+    index: 86
+    isVirtual: 0
+  - name: B_eyelid_U_L_1
+    index: 87
+    isVirtual: 0
+  - name: B_eyelid_U_L_2
+    index: 88
+    isVirtual: 0
+  - name: B_eyelid_U_L_3
+    index: 89
+    isVirtual: 0
+  - name: B_eyelid_U_R_1
+    index: 90
+    isVirtual: 0
+  - name: B_eyelid_U_R_2
+    index: 91
+    isVirtual: 0
+  - name: B_eyelid_U_R_3
+    index: 92
+    isVirtual: 0
+  - name: B_Forehead
+    index: 93
+    isVirtual: 0
+  - name: B_Head_end
+    index: 94
+    isVirtual: 0
+  - name: B_Horn_L_1
+    index: 95
+    isVirtual: 0
+  - name: B_Horn_L_2
+    index: 96
+    isVirtual: 0
+  - name: B_Horn_L_3
+    index: 97
+    isVirtual: 0
+  - name: B_Horn_L_4
+    index: 98
+    isVirtual: 0
+  - name: B_Horn_R_1
+    index: 99
+    isVirtual: 0
+  - name: B_Horn_R_2
+    index: 100
+    isVirtual: 0
+  - name: B_Horn_R_3
+    index: 101
+    isVirtual: 0
+  - name: B_Horn_R_4
+    index: 102
+    isVirtual: 0
+  - name: B_Jaw
+    index: 103
+    isVirtual: 0
+  - name: B_Chin_1
+    index: 104
+    isVirtual: 0
+  - name: B_Chin_2
+    index: 105
+    isVirtual: 0
+  - name: B_Chin_3
+    index: 106
+    isVirtual: 0
+  - name: B_Tongue_1
+    index: 107
+    isVirtual: 0
+  - name: B_Tongue_2
+    index: 108
+    isVirtual: 0
+  - name: B_Tongue_3
+    index: 109
+    isVirtual: 0
+  - name: B_Mouth_L
+    index: 110
+    isVirtual: 0
+  - name: B_Mouth_R
+    index: 111
+    isVirtual: 0
+  - name: B_Nose_1
+    index: 112
+    isVirtual: 0
+  - name: B_Nose_2
+    index: 113
+    isVirtual: 0
+  - name: B_Nose_3
+    index: 114
+    isVirtual: 0
+  - name: B_Nose_4
+    index: 115
+    isVirtual: 0
+  - name: B_Nose_5
+    index: 116
+    isVirtual: 0
+  - name: B_Tail_1
+    index: 117
+    isVirtual: 0
+  - name: B_Tail_2
+    index: 118
+    isVirtual: 0
+  - name: B_Tail_3
+    index: 119
+    isVirtual: 0
+  - name: B_Tail_4
+    index: 120
+    isVirtual: 0
+  - name: B_Tail_5
+    index: 121
+    isVirtual: 0
+  - name: B_Tail_6
+    index: 122
+    isVirtual: 0
+  - name: B_Tail_7
+    index: 123
+    isVirtual: 0
+  - name: B_Tail_8
+    index: 124
+    isVirtual: 0
+  - name: B_Tail_9
+    index: 125
+    isVirtual: 0
+  - name: B_Tail_10
+    index: 126
+    isVirtual: 0
+  - name: B_Tail_11
+    index: 127
+    isVirtual: 0
+  - name: B_Tail_12
+    index: 128
+    isVirtual: 0
+  rigElementChains:
+  - chainName: Pelvis
+    elementChain:
+    - name: B_Pelvis
+      index: 2
+      isVirtual: 0
+  - chainName: Tail
+    elementChain:
+    - name: B_Tail_1
+      index: 117
+      isVirtual: 0
+    - name: B_Tail_2
+      index: 118
+      isVirtual: 0
+    - name: B_Tail_3
+      index: 119
+      isVirtual: 0
+    - name: B_Tail_4
+      index: 120
+      isVirtual: 0
+    - name: B_Tail_5
+      index: 121
+      isVirtual: 0
+    - name: B_Tail_6
+      index: 122
+      isVirtual: 0
+    - name: B_Tail_7
+      index: 123
+      isVirtual: 0
+    - name: B_Tail_8
+      index: 124
+      isVirtual: 0
+    - name: B_Tail_9
+      index: 125
+      isVirtual: 0
+    - name: B_Tail_10
+      index: 126
+      isVirtual: 0
+    - name: B_Tail_11
+      index: 127
+      isVirtual: 0
+    - name: B_Tail_12
+      index: 128
+      isVirtual: 0
+  - chainName: RightLeg
+    elementChain:
+    - name: B_leg_R_1
+      index: 8
+      isVirtual: 0
+    - name: B_leg_R_2
+      index: 9
+      isVirtual: 0
+    - name: B_Foot_R
+      index: 10
+      isVirtual: 0
+  - chainName: LeftLeg
+    elementChain:
+    - name: B_leg_L_1
+      index: 3
+      isVirtual: 0
+    - name: B_leg_L_2
+      index: 4
+      isVirtual: 0
+    - name: B_Foot_L
+      index: 5
+      isVirtual: 0
+  - chainName: Spine
+    elementChain:
+    - name: B_Spine_1
+      index: 13
+      isVirtual: 0
+    - name: B_Spine_2
+      index: 14
+      isVirtual: 0
+  - chainName: Neck
+    elementChain:
+    - name: B_Neck
+      index: 57
+      isVirtual: 0
+    - name: B_Head
+      index: 58
+      isVirtual: 0
+  - chainName: RightArm
+    elementChain:
+    - name: B_Clavicle_R
+      index: 36
+      isVirtual: 0
+    - name: B_Arm_R
+      index: 37
+      isVirtual: 0
+    - name: B_Forearm_R
+      index: 38
+      isVirtual: 0
+    - name: B_Hand_R
+      index: 40
+      isVirtual: 0
+  - chainName: LeftArm
+    elementChain:
+    - name: B_Clavicle_L
+      index: 15
+      isVirtual: 0
+    - name: B_Arm_L
+      index: 16
+      isVirtual: 0
+    - name: B_Forearm_L
+      index: 17
+      isVirtual: 0
+    - name: B_Hand_L
+      index: 19
+      isVirtual: 0
+  - chainName: IndexFingers
+    elementChain:
+    - name: B_index_finger_L_1
+      index: 20
+      isVirtual: 0
+    - name: B_index_finger_L_2
+      index: 21
+      isVirtual: 0
+    - name: B_index_finger_L_3
+      index: 22
+      isVirtual: 0
+    - name: B_index_finger_L_end
+      index: 23
+      isVirtual: 0
+    - name: B_index_finger_R_1
+      index: 41
+      isVirtual: 0
+    - name: B_index_finger_R_2
+      index: 42
+      isVirtual: 0
+    - name: B_index_finger_R_3
+      index: 43
+      isVirtual: 0
+    - name: B_index_finger_R_end
+      index: 44
+      isVirtual: 0
+  - chainName: middleFingers
+    elementChain:
+    - name: B_middle_finger_L_1
+      index: 28
+      isVirtual: 0
+    - name: B_middle_finger_L_2
+      index: 29
+      isVirtual: 0
+    - name: B_middle_finger_L_3
+      index: 30
+      isVirtual: 0
+    - name: B_middle_finger_L_end
+      index: 31
+      isVirtual: 0
+    - name: B_middle_finger_R_1
+      index: 45
+      isVirtual: 0
+    - name: B_middle_finger_R_2
+      index: 46
+      isVirtual: 0
+    - name: B_middle_finger_R_3
+      index: 47
+      isVirtual: 0
+    - name: B_middle_finger_R_end
+      index: 48
+      isVirtual: 0
+  - chainName: PinkyFingers
+    elementChain:
+    - name: B_Little_finger_L_1
+      index: 24
+      isVirtual: 0
+    - name: B_Little_finger_L_2
+      index: 25
+      isVirtual: 0
+    - name: B_Little_finger_L_3
+      index: 26
+      isVirtual: 0
+    - name: B_Little_finger_L_end
+      index: 27
+      isVirtual: 0
+    - name: B_Rittle_finger_R_1
+      index: 49
+      isVirtual: 0
+    - name: B_Rittle_finger_R_2
+      index: 50
+      isVirtual: 0
+    - name: B_Rittle_finger_R_3
+      index: 51
+      isVirtual: 0
+    - name: B_Rittle_finger_R_end
+      index: 52
+      isVirtual: 0
+  - chainName: ThumbFingers
+    elementChain:
+    - name: B_Thumb_L_1
+      index: 32
+      isVirtual: 0
+    - name: B_Thumb_L_2
+      index: 33
+      isVirtual: 0
+    - name: B_Thumb_L_3
+      index: 34
+      isVirtual: 0
+    - name: B_Thumb_L_end
+      index: 35
+      isVirtual: 0
+    - name: B_Thumb_R_1
+      index: 53
+      isVirtual: 0
+    - name: B_Thumb_R_2
+      index: 54
+      isVirtual: 0
+    - name: B_Thumb_R_3
+      index: 55
+      isVirtual: 0
+    - name: B_Thumb_R_end
+      index: 56
+      isVirtual: 0
+  rigCurves: []
+  rigDepths: 0000000001000000020000000300000004000000050000000600000007000000030000000400000005000000060000000700000003000000040000000500000006000000070000000800000008000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c0000000500000006000000070000000800000008000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c00000005000000060000000700000008000000090000000a0000000700000008000000090000000a000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000007000000070000000700000008000000090000000a0000000700000008000000090000000a0000000700000008000000080000000800000008000000090000000a00000007000000070000000700000008000000090000000a0000000b000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e000000
