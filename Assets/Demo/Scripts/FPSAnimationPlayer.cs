@@ -1,5 +1,6 @@
 // Designed by KINEMATION, 2024.
 
+using System;
 using UnityEngine;
 using UnityEngine.Playables;
 
@@ -7,6 +8,8 @@ namespace Demo.Scripts
 {
     public class FPSAnimationPlayer : MonoBehaviour
     {
+        [Range(0f, 1f)] public float timeScale = 1f;
+        
         public Animator characterAnimator;
         public Animator weaponAnimator;
 
@@ -28,7 +31,13 @@ namespace Demo.Scripts
         
             Invoke(nameof(PlayAnimation), characterAnimation.length);
         }
-    
+
+        private void OnValidate()
+        {
+            if (!Application.isPlaying) return;
+            Time.timeScale = timeScale;
+        }
+
         private void Start()
         {
             PlayAnimation();

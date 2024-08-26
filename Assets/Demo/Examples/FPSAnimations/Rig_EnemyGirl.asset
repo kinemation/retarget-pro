@@ -225,6 +225,7 @@ MonoBehaviour:
     - name: model_0:Hips
       index: 1
       isVirtual: 0
+    isStandalone: 0
   - chainName: rightLeg
     elementChain:
     - name: model_0:RightUpLeg
@@ -236,6 +237,7 @@ MonoBehaviour:
     - name: model_0:RightFoot
       index: 9
       isVirtual: 0
+    isStandalone: 0
   - chainName: leftLeg
     elementChain:
     - name: model_0:LeftUpLeg
@@ -247,6 +249,7 @@ MonoBehaviour:
     - name: model_0:LeftFoot
       index: 4
       isVirtual: 0
+    isStandalone: 0
   - chainName: spine
     elementChain:
     - name: model_0:Spine
@@ -258,6 +261,7 @@ MonoBehaviour:
     - name: model_0:Spine2
       index: 14
       isVirtual: 0
+    isStandalone: 0
   - chainName: neck
     elementChain:
     - name: model_0:Neck
@@ -266,6 +270,7 @@ MonoBehaviour:
     - name: model_0:Head
       index: 40
       isVirtual: 0
+    isStandalone: 0
   - chainName: rightArm
     elementChain:
     - name: model_0:RightShoulder
@@ -280,6 +285,7 @@ MonoBehaviour:
     - name: model_0:RightHand
       index: 45
       isVirtual: 0
+    isStandalone: 0
   - chainName: leftArm
     elementChain:
     - name: model_0:LeftShoulder
@@ -294,6 +300,7 @@ MonoBehaviour:
     - name: model_0:LeftHand
       index: 18
       isVirtual: 0
+    isStandalone: 0
   - chainName: handFingers
     elementChain:
     - name: model_0:LeftHandIndex1
@@ -416,10 +423,12 @@ MonoBehaviour:
     - name: model_0:RightHandThumb4
       index: 65
       isVirtual: 0
+    isStandalone: 0
   - chainName: weapon
     elementChain:
     - name: Weapon
       index: 67
       isVirtual: 0
+    isStandalone: 0
   rigCurves: []
   rigDepths: 00000000010000000200000003000000040000000500000006000000020000000300000004000000050000000600000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c00000005000000060000000700000005000000060000000700000008000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c0000000100000001000000

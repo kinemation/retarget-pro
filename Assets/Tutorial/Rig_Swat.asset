@@ -1,0 +1,485 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c9c04639ae548bdb0a8e927492d029d, type: 3}
+  m_Name: Rig_Swat
+  m_EditorClassIdentifier: 
+  targetAnimator: {fileID: 0}
+  inputConfig: {fileID: 0}
+  rigHierarchy:
+  - name: mixamorig:Hips
+    index: 0
+    isVirtual: 0
+  - name: mixamorig:LeftUpLeg
+    index: 1
+    isVirtual: 0
+  - name: mixamorig:LeftLeg
+    index: 2
+    isVirtual: 0
+  - name: mixamorig:LeftFoot
+    index: 3
+    isVirtual: 0
+  - name: mixamorig:LeftToeBase
+    index: 4
+    isVirtual: 0
+  - name: mixamorig:LeftToe_End
+    index: 5
+    isVirtual: 0
+  - name: mixamorig:RightUpLeg
+    index: 6
+    isVirtual: 0
+  - name: mixamorig:RightLeg
+    index: 7
+    isVirtual: 0
+  - name: mixamorig:RightFoot
+    index: 8
+    isVirtual: 0
+  - name: mixamorig:RightToeBase
+    index: 9
+    isVirtual: 0
+  - name: mixamorig:RightToe_End
+    index: 10
+    isVirtual: 0
+  - name: mixamorig:Spine
+    index: 11
+    isVirtual: 0
+  - name: mixamorig:Spine1
+    index: 12
+    isVirtual: 0
+  - name: mixamorig:Spine2
+    index: 13
+    isVirtual: 0
+  - name: mixamorig:LeftShoulder
+    index: 14
+    isVirtual: 0
+  - name: mixamorig:LeftArm
+    index: 15
+    isVirtual: 0
+  - name: mixamorig:LeftForeArm
+    index: 16
+    isVirtual: 0
+  - name: mixamorig:LeftHand
+    index: 17
+    isVirtual: 0
+  - name: mixamorig:LeftHandIndex1
+    index: 18
+    isVirtual: 0
+  - name: mixamorig:LeftHandIndex2
+    index: 19
+    isVirtual: 0
+  - name: mixamorig:LeftHandIndex3
+    index: 20
+    isVirtual: 0
+  - name: mixamorig:LeftHandIndex4
+    index: 21
+    isVirtual: 0
+  - name: mixamorig:LeftHandMiddle1
+    index: 22
+    isVirtual: 0
+  - name: mixamorig:LeftHandMiddle2
+    index: 23
+    isVirtual: 0
+  - name: mixamorig:LeftHandMiddle3
+    index: 24
+    isVirtual: 0
+  - name: mixamorig:LeftHandMiddle4
+    index: 25
+    isVirtual: 0
+  - name: mixamorig:LeftHandPinky1
+    index: 26
+    isVirtual: 0
+  - name: mixamorig:LeftHandPinky2
+    index: 27
+    isVirtual: 0
+  - name: mixamorig:LeftHandPinky3
+    index: 28
+    isVirtual: 0
+  - name: mixamorig:LeftHandPinky4
+    index: 29
+    isVirtual: 0
+  - name: mixamorig:LeftHandRing1
+    index: 30
+    isVirtual: 0
+  - name: mixamorig:LeftHandRing2
+    index: 31
+    isVirtual: 0
+  - name: mixamorig:LeftHandRing3
+    index: 32
+    isVirtual: 0
+  - name: mixamorig:LeftHandRing4
+    index: 33
+    isVirtual: 0
+  - name: mixamorig:LeftHandThumb1
+    index: 34
+    isVirtual: 0
+  - name: mixamorig:LeftHandThumb2
+    index: 35
+    isVirtual: 0
+  - name: mixamorig:LeftHandThumb3
+    index: 36
+    isVirtual: 0
+  - name: mixamorig:LeftHandThumb4
+    index: 37
+    isVirtual: 0
+  - name: mixamorig:Neck
+    index: 38
+    isVirtual: 0
+  - name: mixamorig:Neck1
+    index: 39
+    isVirtual: 0
+  - name: mixamorig:Head
+    index: 40
+    isVirtual: 0
+  - name: mixamorig:HeadTop_End
+    index: 41
+    isVirtual: 0
+  - name: mixamorig:Jaw
+    index: 42
+    isVirtual: 0
+  - name: mixamorig:LeftEye
+    index: 43
+    isVirtual: 0
+  - name: mixamorig:RightEye
+    index: 44
+    isVirtual: 0
+  - name: mixamorig:RightShoulder
+    index: 45
+    isVirtual: 0
+  - name: mixamorig:RightArm
+    index: 46
+    isVirtual: 0
+  - name: mixamorig:RightForeArm
+    index: 47
+    isVirtual: 0
+  - name: mixamorig:RightHand
+    index: 48
+    isVirtual: 0
+  - name: mixamorig:RightHandIndex1
+    index: 49
+    isVirtual: 0
+  - name: mixamorig:RightHandIndex2
+    index: 50
+    isVirtual: 0
+  - name: mixamorig:RightHandIndex3
+    index: 51
+    isVirtual: 0
+  - name: mixamorig:RightHandIndex4
+    index: 52
+    isVirtual: 0
+  - name: mixamorig:RightHandMiddle1
+    index: 53
+    isVirtual: 0
+  - name: mixamorig:RightHandMiddle2
+    index: 54
+    isVirtual: 0
+  - name: mixamorig:RightHandMiddle3
+    index: 55
+    isVirtual: 0
+  - name: mixamorig:RightHandMiddle4
+    index: 56
+    isVirtual: 0
+  - name: mixamorig:RightHandPinky1
+    index: 57
+    isVirtual: 0
+  - name: mixamorig:RightHandPinky2
+    index: 58
+    isVirtual: 0
+  - name: mixamorig:RightHandPinky3
+    index: 59
+    isVirtual: 0
+  - name: mixamorig:RightHandPinky4
+    index: 60
+    isVirtual: 0
+  - name: mixamorig:RightHandRing1
+    index: 61
+    isVirtual: 0
+  - name: mixamorig:RightHandRing2
+    index: 62
+    isVirtual: 0
+  - name: mixamorig:RightHandRing3
+    index: 63
+    isVirtual: 0
+  - name: mixamorig:RightHandRing4
+    index: 64
+    isVirtual: 0
+  - name: mixamorig:RightHandThumb1
+    index: 65
+    isVirtual: 0
+  - name: mixamorig:RightHandThumb2
+    index: 66
+    isVirtual: 0
+  - name: mixamorig:RightHandThumb3
+    index: 67
+    isVirtual: 0
+  - name: mixamorig:RightHandThumb4
+    index: 68
+    isVirtual: 0
+  rigElementChains:
+  - chainName: mixamorig:Hips
+    elementChain:
+    - name: mixamorig:Hips
+      index: 0
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:LeftUpLeg
+    elementChain:
+    - name: mixamorig:LeftUpLeg
+      index: 1
+      isVirtual: 0
+    - name: mixamorig:LeftLeg
+      index: 2
+      isVirtual: 0
+    - name: mixamorig:LeftFoot
+      index: 3
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:RightUpLeg
+    elementChain:
+    - name: mixamorig:RightUpLeg
+      index: 6
+      isVirtual: 0
+    - name: mixamorig:RightLeg
+      index: 7
+      isVirtual: 0
+    - name: mixamorig:RightFoot
+      index: 8
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:Spine
+    elementChain:
+    - name: mixamorig:Spine
+      index: 11
+      isVirtual: 0
+    - name: mixamorig:Spine1
+      index: 12
+      isVirtual: 0
+    - name: mixamorig:Spine2
+      index: 13
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:LeftShoulder
+    elementChain:
+    - name: mixamorig:LeftShoulder
+      index: 14
+      isVirtual: 0
+    - name: mixamorig:LeftArm
+      index: 15
+      isVirtual: 0
+    - name: mixamorig:LeftForeArm
+      index: 16
+      isVirtual: 0
+    - name: mixamorig:LeftHand
+      index: 17
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:LeftHandIndex1
+    elementChain:
+    - name: mixamorig:LeftHandIndex1
+      index: 18
+      isVirtual: 0
+    - name: mixamorig:LeftHandIndex2
+      index: 19
+      isVirtual: 0
+    - name: mixamorig:LeftHandIndex3
+      index: 20
+      isVirtual: 0
+    - name: mixamorig:LeftHandIndex4
+      index: 21
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:LeftHandMiddle1
+    elementChain:
+    - name: mixamorig:LeftHandMiddle1
+      index: 22
+      isVirtual: 0
+    - name: mixamorig:LeftHandMiddle2
+      index: 23
+      isVirtual: 0
+    - name: mixamorig:LeftHandMiddle3
+      index: 24
+      isVirtual: 0
+    - name: mixamorig:LeftHandMiddle4
+      index: 25
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:LeftHandPinky1
+    elementChain:
+    - name: mixamorig:LeftHandPinky1
+      index: 26
+      isVirtual: 0
+    - name: mixamorig:LeftHandPinky2
+      index: 27
+      isVirtual: 0
+    - name: mixamorig:LeftHandPinky3
+      index: 28
+      isVirtual: 0
+    - name: mixamorig:LeftHandPinky4
+      index: 29
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:LeftHandRing1
+    elementChain:
+    - name: mixamorig:LeftHandRing1
+      index: 30
+      isVirtual: 0
+    - name: mixamorig:LeftHandRing2
+      index: 31
+      isVirtual: 0
+    - name: mixamorig:LeftHandRing3
+      index: 32
+      isVirtual: 0
+    - name: mixamorig:LeftHandRing4
+      index: 33
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:LeftHandThumb1
+    elementChain:
+    - name: mixamorig:LeftHandThumb1
+      index: 34
+      isVirtual: 0
+    - name: mixamorig:LeftHandThumb2
+      index: 35
+      isVirtual: 0
+    - name: mixamorig:LeftHandThumb3
+      index: 36
+      isVirtual: 0
+    - name: mixamorig:LeftHandThumb4
+      index: 37
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:Neck
+    elementChain:
+    - name: mixamorig:Neck
+      index: 38
+      isVirtual: 0
+    - name: mixamorig:Neck1
+      index: 39
+      isVirtual: 0
+    - name: mixamorig:Head
+      index: 40
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:HeadTop_End
+    elementChain:
+    - name: mixamorig:HeadTop_End
+      index: 41
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:Jaw
+    elementChain:
+    - name: mixamorig:Jaw
+      index: 42
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:LeftEye
+    elementChain:
+    - name: mixamorig:LeftEye
+      index: 43
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:RightEye
+    elementChain:
+    - name: mixamorig:RightEye
+      index: 44
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:RightShoulder
+    elementChain:
+    - name: mixamorig:RightShoulder
+      index: 45
+      isVirtual: 0
+    - name: mixamorig:RightArm
+      index: 46
+      isVirtual: 0
+    - name: mixamorig:RightForeArm
+      index: 47
+      isVirtual: 0
+    - name: mixamorig:RightHand
+      index: 48
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:RightHandIndex1
+    elementChain:
+    - name: mixamorig:RightHandIndex1
+      index: 49
+      isVirtual: 0
+    - name: mixamorig:RightHandIndex2
+      index: 50
+      isVirtual: 0
+    - name: mixamorig:RightHandIndex3
+      index: 51
+      isVirtual: 0
+    - name: mixamorig:RightHandIndex4
+      index: 52
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:RightHandMiddle1
+    elementChain:
+    - name: mixamorig:RightHandMiddle1
+      index: 53
+      isVirtual: 0
+    - name: mixamorig:RightHandMiddle2
+      index: 54
+      isVirtual: 0
+    - name: mixamorig:RightHandMiddle3
+      index: 55
+      isVirtual: 0
+    - name: mixamorig:RightHandMiddle4
+      index: 56
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:RightHandPinky1
+    elementChain:
+    - name: mixamorig:RightHandPinky1
+      index: 57
+      isVirtual: 0
+    - name: mixamorig:RightHandPinky2
+      index: 58
+      isVirtual: 0
+    - name: mixamorig:RightHandPinky3
+      index: 59
+      isVirtual: 0
+    - name: mixamorig:RightHandPinky4
+      index: 60
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:RightHandRing1
+    elementChain:
+    - name: mixamorig:RightHandRing1
+      index: 61
+      isVirtual: 0
+    - name: mixamorig:RightHandRing2
+      index: 62
+      isVirtual: 0
+    - name: mixamorig:RightHandRing3
+      index: 63
+      isVirtual: 0
+    - name: mixamorig:RightHandRing4
+      index: 64
+      isVirtual: 0
+    isStandalone: 0
+  - chainName: mixamorig:RightHandThumb1
+    elementChain:
+    - name: mixamorig:RightHandThumb1
+      index: 65
+      isVirtual: 0
+    - name: mixamorig:RightHandThumb2
+      index: 66
+      isVirtual: 0
+    - name: mixamorig:RightHandThumb3
+      index: 67
+      isVirtual: 0
+    - name: mixamorig:RightHandThumb4
+      index: 68
+      isVirtual: 0
+    isStandalone: 0
+  rigCurves: []
+  rigDepths: 00000000010000000200000003000000040000000500000001000000020000000300000004000000050000000100000002000000030000000400000005000000060000000700000008000000090000000a0000000b00000008000000090000000a0000000b00000008000000090000000a0000000b00000008000000090000000a0000000b00000008000000090000000a0000000b000000040000000500000006000000070000000700000007000000070000000400000005000000060000000700000008000000090000000a0000000b00000008000000090000000a0000000b00000008000000090000000a0000000b00000008000000090000000a0000000b00000008000000090000000a0000000b000000

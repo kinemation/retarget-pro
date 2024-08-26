@@ -23,7 +23,7 @@ MonoBehaviour:
   ikWeight: 1
   effectorOffset: {x: 0, y: 0, z: 0}
   effectorOffsetSpace:
-    name: 
+    name: Armature
     index: 0
     isVirtual: 0
 --- !u!114 &-7357276236510354800
@@ -179,6 +179,10 @@ MonoBehaviour:
     type: 3}
   sourceRig: {fileID: 11400000, guid: 433cb9587d68d2840b1bdae7c812d8ce, type: 2}
   targetRig: {fileID: 11400000, guid: 6d81026634fe47244b8dc19cdeed26fc, type: 2}
+  excludeChain:
+    chainName: Elements To Exclude
+    elementChain: []
+    isStandalone: 1
   retargetFeatures:
   - {fileID: 4110782300021386644}
   - {fileID: -7357276236510354800}

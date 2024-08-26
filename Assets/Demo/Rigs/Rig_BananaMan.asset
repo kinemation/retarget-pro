@@ -219,6 +219,7 @@ MonoBehaviour:
     - name: Hips
       index: 1
       isVirtual: 0
+    isStandalone: 0
   - chainName: rightLeg
     elementChain:
     - name: Right Thigh
@@ -230,6 +231,7 @@ MonoBehaviour:
     - name: Right Foot
       index: 9
       isVirtual: 0
+    isStandalone: 0
   - chainName: leftLeg
     elementChain:
     - name: Left Thigh
@@ -241,6 +243,7 @@ MonoBehaviour:
     - name: Left Foot
       index: 4
       isVirtual: 0
+    isStandalone: 0
   - chainName: spine
     elementChain:
     - name: Spine 1
@@ -252,6 +255,7 @@ MonoBehaviour:
     - name: Spine 3
       index: 14
       isVirtual: 0
+    isStandalone: 0
   - chainName: neck
     elementChain:
     - name: Neck
@@ -260,6 +264,7 @@ MonoBehaviour:
     - name: Head
       index: 40
       isVirtual: 0
+    isStandalone: 0
   - chainName: rightArm
     elementChain:
     - name: Right Shoulder
@@ -274,6 +279,7 @@ MonoBehaviour:
     - name: Right Hand
       index: 45
       isVirtual: 0
+    isStandalone: 0
   - chainName: leftArm
     elementChain:
     - name: Left Shoulder
@@ -288,6 +294,7 @@ MonoBehaviour:
     - name: Left Hand
       index: 18
       isVirtual: 0
+    isStandalone: 0
   - chainName: toes
     elementChain:
     - name: Left Toes
@@ -296,6 +303,7 @@ MonoBehaviour:
     - name: Right Toes
       index: 10
       isVirtual: 0
+    isStandalone: 0
   - chainName: handFingers
     elementChain:
     - name: Left Hand Index 1
@@ -418,5 +426,6 @@ MonoBehaviour:
     - name: Right Hand Thumb 3_end
       index: 65
       isVirtual: 0
+    isStandalone: 0
   rigCurves: []
   rigDepths: 00000000010000000200000003000000040000000500000006000000020000000300000004000000050000000600000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c00000005000000060000000700000005000000060000000700000008000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000090000000a0000000b0000000c000000

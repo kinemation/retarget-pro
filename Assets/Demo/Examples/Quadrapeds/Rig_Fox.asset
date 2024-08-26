@@ -141,6 +141,7 @@ MonoBehaviour:
     - name: Root_M
       index: 1
       isVirtual: 0
+    isStandalone: 0
   - chainName: rightLeg
     elementChain:
     - name: Fox_RLeg1
@@ -152,6 +153,7 @@ MonoBehaviour:
     - name: Fox_RLegAnkle
       index: 8
       isVirtual: 0
+    isStandalone: 0
   - chainName: leftLeg
     elementChain:
     - name: Fox_LLeg1
@@ -163,6 +165,7 @@ MonoBehaviour:
     - name: Fox_LLegAnkle
       index: 4
       isVirtual: 0
+    isStandalone: 0
   - chainName: spine
     elementChain:
     - name: Fox_Spine1
@@ -171,6 +174,7 @@ MonoBehaviour:
     - name: Fox_Spine2
       index: 11
       isVirtual: 0
+    isStandalone: 0
   - chainName: neck
     elementChain:
     - name: Fox_Spine
@@ -179,6 +183,7 @@ MonoBehaviour:
     - name: Fox_Head
       index: 22
       isVirtual: 0
+    isStandalone: 0
   - chainName: rightArm
     elementChain:
     - name: Fox_F_RLeg1
@@ -190,6 +195,7 @@ MonoBehaviour:
     - name: Fox_F_RLegAnkle
       index: 19
       isVirtual: 0
+    isStandalone: 0
   - chainName: leftArm
     elementChain:
     - name: Fox_F_LLeg1
@@ -201,6 +207,7 @@ MonoBehaviour:
     - name: Fox_F_LLegAnkle
       index: 15
       isVirtual: 0
+    isStandalone: 0
   - chainName: toes
     elementChain:
     - name: Fox_LLegDigit11
@@ -209,6 +216,7 @@ MonoBehaviour:
     - name: Fox_RLegDigit11
       index: 9
       isVirtual: 0
+    isStandalone: 0
   - chainName: tail
     elementChain:
     - name: Fox_Tail1
@@ -226,6 +234,7 @@ MonoBehaviour:
     - name: Fox_Tail5
       index: 38
       isVirtual: 0
+    isStandalone: 0
   - chainName: ears
     elementChain:
     - name: Fox_LEar1
@@ -234,5 +243,6 @@ MonoBehaviour:
     - name: Fox_REar1
       index: 29
       isVirtual: 0
+    isStandalone: 0
   rigCurves: []
   rigDepths: 00000000010000000200000003000000040000000500000002000000030000000400000005000000020000000300000004000000050000000600000007000000080000000500000006000000070000000800000005000000060000000700000007000000080000000700000007000000070000000700000008000000070000000700000007000000020000000300000004000000050000000600000007000000

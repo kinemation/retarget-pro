@@ -33,15 +33,18 @@ MonoBehaviour:
     - name: Mag
       index: 2
       isVirtual: 0
+    isStandalone: 0
   - chainName: Charge
     elementChain:
     - name: Charge
       index: 1
       isVirtual: 0
+    isStandalone: 0
   - chainName: Safety
     elementChain:
     - name: Safety
       index: 3
       isVirtual: 0
+    isStandalone: 0
   rigCurves: []
   rigDepths: 00000000010000000100000001000000

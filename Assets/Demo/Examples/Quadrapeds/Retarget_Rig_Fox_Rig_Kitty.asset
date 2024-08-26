@@ -120,6 +120,10 @@ MonoBehaviour:
   targetPose: {fileID: 0}
   sourceRig: {fileID: 11400000, guid: 6d906e03127c337448202aa055311589, type: 2}
   targetRig: {fileID: 11400000, guid: 1d5ab29af90202e4ab1ef090a37fc6b1, type: 2}
+  excludeChain:
+    chainName: Elements To Exclude
+    elementChain: []
+    isStandalone: 1
   retargetFeatures:
   - {fileID: -5455100198833025841}
   - {fileID: 3076637895884548812}
@@ -151,7 +155,7 @@ MonoBehaviour:
   scaleWeight: 1
   translationWeight: 0
   offset: {x: 0, y: 0, z: 0}
-  ikWeight: 1
+  ikWeight: 0
   effectorOffset: {x: 0, y: 0, z: 0}
   effectorOffsetSpace:
     name: 
@@ -249,7 +253,7 @@ MonoBehaviour:
   scaleWeight: 1
   translationWeight: 0
   offset: {x: 0, y: 0, z: 0}
-  ikWeight: 1
+  ikWeight: 0
   effectorOffset: {x: 0, y: 0, z: 0}
   effectorOffsetSpace:
     name: 
