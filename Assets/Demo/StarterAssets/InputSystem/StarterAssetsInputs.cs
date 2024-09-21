@@ -29,18 +29,6 @@ namespace StarterAssets.InputSystem
 		
 		[SerializeField] private FreeCamera freeCamera;
 		[SerializeField] private CinemachineBrain cinemachineBrain;
-		[SerializeField] private MainMenu menu;
-
-		private bool _showMenu;
-
-		public void OnToggleMenu()
-		{
-			_showMenu = menu.OnToggleMenu();
-			if (!_showMenu) return;
-			
-			move = look = Vector2.zero;
-			sprint = false;
-		}
 
 		public void OnToggleCamera()
 		{
@@ -58,13 +46,13 @@ namespace StarterAssets.InputSystem
 		
 		public void OnMove(InputValue value)
 		{
-			if (_freeCameraEnabled || _showMenu) return;
+			if (_freeCameraEnabled) return;
 			MoveInput(value.Get<Vector2>());
 		}
 
 		public void OnLook(InputValue value)
 		{
-			if (_freeCameraEnabled || _showMenu) return;
+			if (_freeCameraEnabled) return;
 			if(cursorInputForLook)
 			{
 				LookInput(value.Get<Vector2>());
@@ -73,13 +61,13 @@ namespace StarterAssets.InputSystem
 		
 		public void OnJump(InputValue value)
 		{
-			if (_freeCameraEnabled || _showMenu) return;
+			if (_freeCameraEnabled) return;
 			JumpInput(value.isPressed);
 		}
 
 		public void OnSprint(InputValue value)
 		{
-			if (_freeCameraEnabled || _showMenu) return;
+			if (_freeCameraEnabled) return;
 			SprintInput(value.isPressed);
 		}
 #endif
